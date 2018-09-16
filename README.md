@@ -8,3 +8,13 @@ Formats JSON responses like:
 to:
 
 <img src="https://github.com/obedtandadjaja/beautify-json-chrome/blob/master/screenshots/screenshot1.png" width='600px'/>
+
+Features:
+- Indentation
+- Color code
+- Automatic JSON validation/parsing
+- Hover on selection
+
+Features coming soon:
+- Collapse all
+- Expand all
