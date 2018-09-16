@@ -7,5 +7,4 @@ Formats JSON responses like:
 
 to:
 
-<img src="https://github.com/obedtandadjaja/beautify-json-chrome/blob/master/screenshots/screenshot1.png"/># beautify-json-chrome
-JSON formatter Chrome extension
+<img src="https://github.com/obedtandadjaja/beautify-json-chrome/blob/master/screenshots/screenshot1.png" width='600px'/>
