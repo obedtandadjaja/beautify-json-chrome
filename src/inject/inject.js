@@ -44,9 +44,19 @@ function iterateObject(object) {
 
 function iterateArray(array) {
   for(var i = 0; i < array.length; i++) {
-    value = array[i]
+    var value = array[i]
     if(value == null) {
       addArrayField(null, value)
+    } else if(value instanceof Array) {
+      addArray(object)
+      addArrayProperty(key)
+      iterateArray(value)
+      completeObject()
+    } else if(typeof value == 'object') {
+      addObject(object)
+      addObjectProperty(key)
+      iterateObject(value)
+      completeObject()
     } else {
       addArrayField(typeof value, value)
     }
