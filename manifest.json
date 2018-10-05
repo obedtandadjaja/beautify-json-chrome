@@ -4,7 +4,7 @@
   "short_name": "beautify_json",
   "description": "Validates and formats JSON texts",
   "homepage_url": "http://obedtandadjaja.github.io",
-  "version": "0.1",
+  "version": "0.2",
   "default_locale": "en",
   "content_scripts": [
     {
